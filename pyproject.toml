@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tool2-investigation"
+version = "0.1.0"
+description = ""
+authors = ["Kaj Siebert <kaj@k-si.com>"]
+readme = "README.md"
+packages = [{include = "tool2_investigation"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^3.5.3"
+pandas = "^1.5.3"
+numpy = "^1.24.1"
+dill = "^0.3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
